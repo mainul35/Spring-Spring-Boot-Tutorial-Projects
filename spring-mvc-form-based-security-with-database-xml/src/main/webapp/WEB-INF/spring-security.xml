@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns="http://www.springframework.org/schema/security"
+	xsi:schemaLocation="http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<http auto-config="true">
+		<csrf disabled="true" />
+		<intercept-url pattern="/**" access="permitAll()" />
+		<intercept-url pattern="/login" access="permitAll()" />
+		<intercept-url pattern="/logout" access="permitAll()" />
+		<intercept-url pattern="/user/show" access="hasAnyRole('ROLE_USER')" />
+
+
+		<form-login login-page="/login" login-processing-url="/login-process"
+			default-target-url="/user/show" always-use-default-target="false"
+			authentication-failure-url="/login?error=true" username-parameter="username"
+			password-parameter="password" />
+
+		<logout logout-url="/logout" invalidate-session="true"
+			logout-success-url="/login" />
+	</http>
+
+	<beans:bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<beans:property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<beans:property name="url" value="jdbc:mysql://localhost:3306/test" />
+		<beans:property name="username" value="root" />
+		<beans:property name="password" value="" />
+	</beans:bean>
+
+	<beans:bean id="passwordEncoder" class="com.springtutorials.Model.PasswordHashingUtil"/>
+	
+<!-- 	<beans:bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate"> -->
+<!-- 		<beans:property name="dataSource" ref="dataSource"></beans:property> -->
+<!-- 	</beans:bean> -->
+
+<!-- 	<beans:bean id="userDao" class="com.springtutorials.Service.UserDaoImpl"> -->
+<!-- 		<beans:property name="jdbcTemplate" ref="jdbcTemplate" /> -->
+<!-- 	</beans:bean> -->
+<!-- 	<beans:bean id="userService" class="com.springtutorials.Service.UserService"> -->
+<!-- 		<beans:property name="userDao" ref="userDao" /> -->
+<!-- 	</beans:bean> -->
+
+
+<!-- 	<beans:bean id="customAuthenticationProvider" -->
+<!-- 		class="com.springtutorials.security.CustomAuthenticationProvider"> -->
+<!-- 		<beans:property name="userService" ref="userService" /> -->
+<!-- 	</beans:bean> -->
+	<authentication-manager>
+		<authentication-provider>
+			<jdbc-user-service data-source-ref="dataSource"
+				users-by-username-query="SELECT `username`, `password`, `enabled` from `userdetails` WHERE `username` = ?"
+				authorities-by-username-query="SELECT ud.username, concat('ROLE_', r.role_name) role_name FROM userdetails ud, user_role ur, roles r WHERE ud.id = ur.user_id AND ur.role_id = r.role_id AND ud.username = ?" />
+		</authentication-provider>
+	</authentication-manager>
+</beans:beans>
