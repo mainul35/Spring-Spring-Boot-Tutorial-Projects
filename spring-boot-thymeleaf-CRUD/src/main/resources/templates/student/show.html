@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>index</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+            th:src="@{/contents/js/sort_table.js}"></script>
+    <script type="text/javascript"
+            th:src="@{/contents/js/jQuery.fn.sortElements.js}"></script>
+
+</head>
+<body>
+<div class="container">
+    <h2>All students</h2>
+    <form>
+        <div class="form-group">
+            <input class="form-control" type="text" id="search" placeholder="Search table">
+        </div>
+
+    </form>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th id="name">Name</th>
+            <th id="email">Email</th>
+            <th>Sex</th>
+            <th>Subjects</th>
+            <th id="country">Country</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="student : ${students}">
+            <td th:text="${student.studentName}"></td>
+            <td th:text="${student.email}"></td>
+            <td th:text="${student.sex}"></td>
+            <td th:text="${student.subject}"></td>
+            <td th:text="${student.country}"></td>
+            <td>
+                <a href="#" type="button" class="btn btn-info btn-sm" th:href="@{/student/update(id=${student.studentId})}">Update</a>
+            </td>
+            <td><a href="#" type="button" class="btn btn-info btn-sm" th:href="@{/student/delete(id=${student.studentId})}">Delete</a></td>
+
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+<script type="text/javascript">
+    sortTable("#name, #email, #country");
+    searchTable(5);
+</script>
+
+</html>
