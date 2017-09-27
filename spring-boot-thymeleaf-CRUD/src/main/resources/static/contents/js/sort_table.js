@@ -57,3 +57,15 @@ function searchTable(col_num){
         });
     });
 }
+
+function paginate_table(table_selector) {
+    $(table_selector).datatable({
+        pageSize: 2,
+        sort: [false, false, false],
+        filters: [false, false, false],
+        filterText: 'Type to filter... ',
+        onChange: function(old_page, new_page){
+            console.log('changed from ' + old_page + ' to ' + new_page);
+        }
+    }) ;
+}
