@@ -55,13 +55,24 @@
         </tr>
         </tbody>
     </table>
-    <div class="paging"></div>
+    <th:block th:if="${(currentPage-1)>0}">
+        <a th:href="@{/student/show(page=${currentPage-1})}">&lt;&lt;Previous</a>
+        <a th:href="@{/student/show(page=${currentPage-1})}" th:text="${currentPage-1}"></a>
+    </th:block>
+    <a th:href="@{/student/show(page=${currentPage})}" th:text="${currentPage}"></a>
+
+    <!--<a th:href="@{/student/show(page=${currentPage+1})}">Next&gt;&gt;</a>-->
+    <th:block th:unless="${currentPage>pages}">
+        <a th:href="@{/student/show(page=${currentPage+1})}" th:text="${currentPage+1}"></a>
+        <a th:href="@{/student/show(page=${currentPage+1})}">Next&gt;&gt;</a>
+    </th:block>
 </div>
 </body>
 <script type="text/javascript">
     sortTable("#name, #email, #country");
     searchTable(5);
-    paginate_table(".table");
+//    paginate_table(".table");
+
 </script>
 
 </html>

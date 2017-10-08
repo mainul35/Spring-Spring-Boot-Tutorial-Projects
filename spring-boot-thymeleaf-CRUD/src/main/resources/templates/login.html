@@ -13,10 +13,12 @@
     <link th:href="@{/contents/css/signup.css}" rel="stylesheet" type="text/css"/>
     <script type="text/javascript"
             th:src="@{/contents/js/signup.js}"></script>
+    <!--/*/ <th:block th:include="includes/components :: components"></th:block> /*/-->
 </head>
 <body>
-<div id="fullscreen_bg" class="fullscreen_bg">
 
+<div id="fullscreen_bg" class="fullscreen_bg">
+    <!--/*/ <th:block th:include="includes/header :: header"></th:block> /*/-->
     <div class="container">
         <div class="card card-container">
             <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"/>

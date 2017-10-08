@@ -3,6 +3,9 @@ package com.springtutorials.Service;
 import com.springtutorials.Repository.StudentRepository;
 import com.springtutorials.model.Student;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
@@ -58,7 +61,17 @@ public class StudentService {
         return students;
     }
 
+    public List<Student> getPage(int pageNumber) {
+        PageRequest request = new PageRequest(pageNumber - 1, 3, Sort.Direction.ASC, "studentId");
+        return studentRepository.findAll(request).getContent();
+    }
+
     public void delete(Integer id) {
         studentRepository.delete(id);
     }
+
+    public int count(){
+        return findAll().size();
+    }
+
 }

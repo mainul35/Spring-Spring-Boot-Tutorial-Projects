@@ -11,10 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.ArrayList;
@@ -31,7 +28,6 @@ public class StudentController {
         List<Sex> sexList = new ArrayList<>();
         sexList.add(new Sex("Male"));
         sexList.add(new Sex("Female"));
-
         model.addAttribute("sexList", sexList);
     }
 
@@ -157,13 +153,24 @@ public class StudentController {
     }
 
     @RequestMapping(value = "/show", method = RequestMethod.GET)
-    public String viewStudents(Model model) {
+    public String viewStudents(Model model, @RequestParam(name = "page", defaultValue = "1") int pageNumber) {
 
-        List<Student> students = studentService.findAll();
-
+        List<Student> students = studentService.getPage(pageNumber);
+        int pages = ((int) Math.ceil(studentService.count() / 3));
         model.addAttribute("students", students);
+        model.addAttribute("pages", pages);
+        model.addAttribute("currentPage", pageNumber);
         return "student/show";
     }
+
+//    @RequestMapping(value = "/show-page/{page}", method = RequestMethod.GET)
+//    public @ResponseBody
+//    List<Student> fetchPageResult(@PathVariable("page") int pageNumber) {
+//
+//        List<Student> students = studentService.getPage(pageNumber);
+//
+//        return students;
+//    }
 
     @RequestMapping(value = "/delete", method = RequestMethod.GET)
     public String deleteStudents(Model model, @RequestParam("id") String id) {
