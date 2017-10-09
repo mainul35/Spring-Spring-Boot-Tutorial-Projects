@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
 
 <head>
     <meta charset="UTF-8"/>
@@ -19,7 +19,10 @@
     <script src="https://cdn.rawgit.com/Holt59/datatable/master/js/datatable.jquery.js"></script>
     <script src="https://cdn.rawgit.com/Holt59/datatable/master/js/datatable.js"></script>
 </head>
+<!--/*/ <th:block th:include="includes/components :: components"></th:block> /*/-->
+<!--/*/ <th:block th:include="includes/header :: header"></th:block> /*/-->
 <body>
+<br><br><br>
 <div class="container">
     <h2>All students</h2>
     <form>

@@ -156,7 +156,7 @@ public class StudentController {
     @RequestMapping(value = "/show", method = RequestMethod.GET)
     public String viewStudents(Model model, @RequestParam(name = "page", defaultValue = "1") int pageNumber) {
 
-        int resultPerPage = 1;
+        int resultPerPage = 2;
         int totalResults = studentService.count();
         int pages = (totalResults / resultPerPage);
         System.out.println(pages);
@@ -227,13 +227,13 @@ public class StudentController {
 
         return "student/update";
     }
-
+//@RequestParam("id")int id,
     @RequestMapping(value = "/update", method = RequestMethod.POST)
     public String updateStudent_POST(Model model,
                                      @ModelAttribute("student") Student student,
                                      @RequestParam(name = "subjects", defaultValue = "") String subs,
                                      @RequestParam(name = "country", defaultValue = "") String country,
-                                     @RequestParam("id") int id,
+
                                      BindingResult errors,
                                      RedirectAttributes redirectAttributes
     ) {

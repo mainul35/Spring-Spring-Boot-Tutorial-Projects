@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
 
 <head>
     <meta charset="UTF-8"/>
@@ -14,14 +14,16 @@
     <script type="text/javascript"
             th:src="@{/js/validation.js}"></script>
 </head>
+
 <body>
+<br><br><br>
 <div class="container">
     <h2>Form control: input</h2>
 
     <p th:text="${msg}"></p>
 
     <form action="#" th:action="@{/student/update}" th:object="${student}" method="post">
-        <input type="hidden" name="id" th:value="${id}">
+
         <div class="form-group" th:classappend="${#fields.hasErrors('studentName')}? 'has-error'">
             <label for="name" class="col-lg-2 control-label">Name</label>
             <div class="col-lg-10">
@@ -33,7 +35,7 @@
         <div class="form-group" th:classappend="${#fields.hasErrors('email')}? 'has-error'">
             <label for="email" class="col-lg-2 control-label">Email</label>
             <div class="col-lg-10">
-                <input type="email" class="form-control" id="email" placeholder="student Email" th:field="*{email}"/>
+                <input type="email" class="form-control" id="email" placeholder="student Email" th:field="*{email}" readonly/>
                 <!--email <span>Email : <th:block th:text="*{email}"></th:block> </span>-->
                 <br><span id="msg-email"></span>
             </div>
