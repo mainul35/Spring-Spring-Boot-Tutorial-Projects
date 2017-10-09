@@ -7,6 +7,7 @@ import com.springtutorials.model.Country;
 import com.springtutorials.model.Sex;
 import com.springtutorials.model.Student;
 import com.springtutorials.model.Subject;
+import jdk.nashorn.internal.objects.NativeJava;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -155,10 +156,13 @@ public class StudentController {
     @RequestMapping(value = "/show", method = RequestMethod.GET)
     public String viewStudents(Model model, @RequestParam(name = "page", defaultValue = "1") int pageNumber) {
 
-        List<Student> students = studentService.getPage(pageNumber);
-        int pages = ((int) Math.ceil(studentService.count() / 3));
+        int resultPerPage = 1;
+        int totalResults = studentService.count();
+        int pages = (totalResults / resultPerPage);
+        System.out.println(pages);
+        List<Student> students = studentService.getPage(pageNumber, resultPerPage);
         model.addAttribute("students", students);
-        model.addAttribute("pages", pages);
+        model.addAttribute("pages", resultPerPage==1?studentService.count()-1:resultPerPage==totalResults?0:pages%2==0?pages-1:pages);
         model.addAttribute("currentPage", pageNumber);
         return "student/show";
     }

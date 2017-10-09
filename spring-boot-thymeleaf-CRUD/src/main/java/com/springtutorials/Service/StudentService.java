@@ -61,8 +61,9 @@ public class StudentService {
         return students;
     }
 
-    public List<Student> getPage(int pageNumber) {
-        PageRequest request = new PageRequest(pageNumber - 1, 3, Sort.Direction.ASC, "studentId");
+    public List<Student> getPage(int pageNumber, int resultPerPage) {
+
+        PageRequest request = new PageRequest(pageNumber - 1,  resultPerPage, Sort.Direction.ASC, "studentId");
         return studentRepository.findAll(request).getContent();
     }
 
