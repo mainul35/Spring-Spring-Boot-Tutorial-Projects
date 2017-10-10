@@ -156,13 +156,16 @@ public class StudentController {
     @RequestMapping(value = "/show", method = RequestMethod.GET)
     public String viewStudents(Model model, @RequestParam(name = "page", defaultValue = "1") int pageNumber) {
 
-        int resultPerPage = 2;
+        int resultPerPage = 3;
         int totalResults = studentService.count();
-        int pages = (totalResults / resultPerPage);
+        int pages =(int)Math.ceil(((double)totalResults) / resultPerPage);
         System.out.println(pages);
         List<Student> students = studentService.getPage(pageNumber, resultPerPage);
         model.addAttribute("students", students);
-        model.addAttribute("pages", resultPerPage==1?studentService.count()-1:resultPerPage==totalResults?0:pages%2==0?pages-1:pages);
+        model.addAttribute("pages",
+                resultPerPage == 1
+                ?studentService.count()-1:resultPerPage==totalResults
+                ?0:pages-1);
         model.addAttribute("currentPage", pageNumber);
         return "student/show";
     }
