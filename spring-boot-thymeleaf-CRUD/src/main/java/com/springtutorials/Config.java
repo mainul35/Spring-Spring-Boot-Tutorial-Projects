@@ -98,7 +98,7 @@ public class Config {
         vendorAdapter.setGenerateDdl(true);
         LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
         factory.setJpaVendorAdapter(vendorAdapter);
-        factory.setPackagesToScan("com.springtutorials.Controller");
+        factory.setPackagesToScan("com.springtutorials.Controller", "com.springtutorials.Rest");
         factory.setDataSource(dataSource());
         factory.afterPropertiesSet();
 
