@@ -58,10 +58,10 @@ public class UserService implements UserDetailsService {
             user.setPassword(passwordEncoder.encode(user.getPassword()));
             System.out.println(user.toString());
             userRepository.save(user);
-            String sql = "insert into user_autrhority(user_id, authority_id)\n" +
-                    "select u.id, a.id\n" +
-                    "from user u, authority a\n" +
-                    "where u.username='" + user.getUsername() + "'\n" +
+            String sql = "insert into user_authority(user_id, authority_id) \n" +
+                    "select u.id, a.id \n" +
+                    "from user u, authority a \n" +
+                    "where u.username='" + user.getUsername() + "' \n" +
                     "and a.authority='ROLE_USER';";
             int res = jdbcTemplate.update(sql);
 

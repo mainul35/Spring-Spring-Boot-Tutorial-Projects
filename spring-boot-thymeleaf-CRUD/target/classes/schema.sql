@@ -64,7 +64,7 @@ CREATE TABLE `student` (
 
 LOCK TABLES `student` WRITE;
 /*!40000 ALTER TABLE `student` DISABLE KEYS */;
-INSERT INTO `student` VALUES (14,'Syed Hasan','Male','mainuls20@gmail.com','English,Math,ICT','Japan'),(15,'Mainul','Male','mainuls21@gmail.com','English,Math','Bangladesh'),(16,'Mainul Hasan','Male','mainuls22@gmail.com','English,Math','Canada'),(19,'Sunil Chondro','Male','sunil@gmail.com','Math,ICT','Bangladesh'),(20,'Hashim Amla','Male','amla@gmail.com','Math,Physics','France'),(21,'abcdef','Male','abcdef@gmail.com','Chemistry,Physics','Bangladesh'),(22,'abcd','Male','abc@gmail.com','Chemistry','Bangladesh');
+INSERT INTO `student` VALUES (1,'Syed Hasan','Male','mainuls20@gmail.com','English,Math,ICT','Japan'),(2,'Mainul','Male','mainuls21@gmail.com','English,Math','Bangladesh'),(3,'Mainul Hasan','Male','mainuls22@gmail.com','English,Math','Canada'),(4,'Sunil Chondro','Male','sunil@gmail.com','Math,ICT','Bangladesh'),(5,'Hashim Amla','Male','amla@gmail.com','Math,Physics','France'),(6,'abcdef','Male','abcdef@gmail.com','Chemistry,Physics','Bangladesh'),(7,'abcd','Male','abc@gmail.com','Chemistry','Bangladesh');
 /*!40000 ALTER TABLE `student` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -94,7 +94,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (2,'user','$2a$11$aQ8I.LKzaxDZxKSDZi8bKucNMiTCdqg.aDImbgw.jHXWvmsxPc6Yy','user@gmail.com','User','1'),(3,'admin','$2a$11$aQ8I.LKzaxDZxKSDZi8bKucNMiTCdqg.aDImbgw.jHXWvmsxPc6Yy','admin20@gmail.com','Syed Mainul Hasan','1');
+INSERT INTO `user` VALUES (1,'user','$2a$11$aQ8I.LKzaxDZxKSDZi8bKucNMiTCdqg.aDImbgw.jHXWvmsxPc6Yy','user@gmail.com','User','1'),(2,'admin','$2a$11$aQ8I.LKzaxDZxKSDZi8bKucNMiTCdqg.aDImbgw.jHXWvmsxPc6Yy','admin20@gmail.com','Syed Mainul Hasan','1');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -119,7 +119,7 @@ CREATE TABLE `user_authority` (
 
 LOCK TABLES `user_authority` WRITE;
 /*!40000 ALTER TABLE `user_autrhority` DISABLE KEYS */;
-INSERT INTO `user_authority` VALUES (3,1,1),(2,2,2),(3,2,5);
+INSERT INTO `user_authority` VALUES (2,1,1),(1,2,2),(2,2,3);
 /*!40000 ALTER TABLE `user_autrhority` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
