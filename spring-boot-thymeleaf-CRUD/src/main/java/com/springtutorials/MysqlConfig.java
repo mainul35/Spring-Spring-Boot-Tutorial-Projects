@@ -24,7 +24,7 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-public class Config {
+public class MysqlConfig {
 
     @Value("${spring.datasource.driver}")
     private static String DB_DRIVER;
@@ -50,25 +50,25 @@ public class Config {
     @Value("${entitymanager.packagesToScan}")
     private String ENTITYMANAGER_PACKAGES_TO_SCAN;
 
-//    @Bean(name = "dataSource")
-//    public static DriverManagerDataSource dataSource() {
-//        DriverManagerDataSource dataSource = new DriverManagerDataSource();
-//        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-//        dataSource.setUrl("jdbc:mysql://localhost:3306/test?autoReconnect=true&useSSL=false");
-//        dataSource.setUsername("root");
-//        dataSource.setPassword("1234");
-//        return dataSource;
-//    }
-
-    @Bean
-    public DataSource dataSource() {
+    @Bean(name = "dataSource")
+    public static DriverManagerDataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName(DB_DRIVER);
-        dataSource.setUrl(DB_URL);//"jdbc:mysql://localhost:3306/test?autoReconnect=true&useSSL=false");
-        dataSource.setUsername(DB_USERNAME);
-        dataSource.setPassword(DB_PASSWORD);
+        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/test?autoReconnect=true&useSSL=false");
+        dataSource.setUsername("root");
+        dataSource.setPassword("");
         return dataSource;
     }
+
+//    @Bean
+//    public DataSource dataSource() {
+//        DriverManagerDataSource dataSource = new DriverManagerDataSource();
+//        dataSource.setDriverClassName(DB_DRIVER);
+//        dataSource.setUrl(DB_URL);//"jdbc:mysql://localhost:3306/test?autoReconnect=true&useSSL=false");
+//        dataSource.setUsername(DB_USERNAME);
+//        dataSource.setPassword(DB_PASSWORD);
+//        return dataSource;
+//    }
 
     @Bean
     public LocalSessionFactoryBean sessionFactory() {
@@ -98,7 +98,7 @@ public class Config {
         vendorAdapter.setGenerateDdl(true);
         LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
         factory.setJpaVendorAdapter(vendorAdapter);
-        factory.setPackagesToScan("com.springtutorials.Controller", "com.springtutorials.Rest");
+        factory.setPackagesToScan("com.springtutorials.Controller","com.springtutorials.Entity");
         factory.setDataSource(dataSource());
         factory.afterPropertiesSet();
 

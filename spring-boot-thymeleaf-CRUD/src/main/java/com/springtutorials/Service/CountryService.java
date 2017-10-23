@@ -1,6 +1,5 @@
 package com.springtutorials.Service;
 
-import com.springtutorials.Repository.CountryRepository;
 import com.springtutorials.model.Country;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,12 +10,6 @@ import java.util.Objects;
 
 @Service
 public class CountryService {
-    @Autowired
-    CountryRepository countryRepository;
-
-    public void saveOrUpdate(Country country) {
-        countryRepository.save(country);
-    }
 
     public Country getCountryById(Integer id) {
         return this.findAll().stream()
@@ -36,12 +29,6 @@ public class CountryService {
         countries.add(new Country(3, "Japan", false));
         countries.add(new Country(4, "Canada", false));
         countries.add(new Country(5, "France", false));
-
-//        countryRepository.findAll().forEach(subjects::add);
         return countries;
-    }
-
-    public void delete(Integer id) {
-        countryRepository.delete(id);
     }
 }

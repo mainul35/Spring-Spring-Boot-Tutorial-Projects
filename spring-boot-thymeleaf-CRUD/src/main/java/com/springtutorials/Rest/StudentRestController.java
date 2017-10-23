@@ -1,21 +1,11 @@
 package com.springtutorials.Rest;
 
-import com.springtutorials.Service.CountryService;
 import com.springtutorials.Service.StudentService;
-import com.springtutorials.Service.SubjectService;
-import com.springtutorials.model.Country;
-import com.springtutorials.model.Sex;
-import com.springtutorials.model.Student;
-import com.springtutorials.model.Subject;
+import com.springtutorials.Entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.StringTokenizer;
 
 @RestController
 @RequestMapping("/rest/student")

@@ -1,7 +1,7 @@
 package com.springtutorials.Service;
 
 import com.springtutorials.Repository.UserRepository;
-import com.springtutorials.model.Authority;
+import com.springtutorials.Entity.Authority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -29,7 +29,7 @@ public class UserService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        com.springtutorials.model.User user = userRepository.findByUsername(username);
+        com.springtutorials.Entity.User user = userRepository.findByUsername(username);
         List<Map<String, Object>> maps = jdbcTemplate.queryForList(
                 "select a.id, a.authority, u.username " +
                 "from `user` u, `authority` a, `user_autrhority` au " +
@@ -53,7 +53,7 @@ public class UserService implements UserDetailsService {
         return user1;
     }
 
-    public boolean createUser(com.springtutorials.model.User user){
+    public boolean createUser(com.springtutorials.Entity.User user){
         if(!existsWithEmail(user.getEmail()) || !existsWithUsername(user.getUsername())) {
             user.setPassword(passwordEncoder.encode(user.getPassword()));
             System.out.println(user.toString());
@@ -71,7 +71,7 @@ public class UserService implements UserDetailsService {
     }
 
     public boolean existsWithUsername(String username){
-        if(userRepository.findByUsername(username) instanceof com.springtutorials.model.User){
+        if(userRepository.findByUsername(username) instanceof com.springtutorials.Entity.User){
             return true;
         }else{
             return false;
@@ -79,7 +79,7 @@ public class UserService implements UserDetailsService {
     }
 
     public boolean existsWithEmail(String email){
-        if(userRepository.findByUsername(email) instanceof com.springtutorials.model.User){
+        if(userRepository.findByUsername(email) instanceof com.springtutorials.Entity.User){
             return true;
         }else{
             return false;

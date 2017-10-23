@@ -1,7 +1,7 @@
 package com.springtutorials.Service;
 
 import com.springtutorials.Repository.AuthorityRepository;
-import com.springtutorials.model.Authority;
+import com.springtutorials.Entity.Authority;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

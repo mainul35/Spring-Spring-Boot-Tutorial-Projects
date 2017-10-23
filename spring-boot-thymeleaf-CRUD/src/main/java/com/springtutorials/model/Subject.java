@@ -2,14 +2,9 @@ package com.springtutorials.model;
 
 import javax.persistence.*;
 
-@Entity
-@Table(name = "subject")
 public class Subject {
-    @Id
-    @Column(name = "subject_id")
-    @GeneratedValue(strategy = GenerationType.AUTO)
+
     Integer subjectId;
-    @Column(name = "subject_name")
     String subjectName;
     Boolean selected;
 

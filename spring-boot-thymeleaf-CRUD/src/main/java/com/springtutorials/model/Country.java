@@ -2,16 +2,10 @@ package com.springtutorials.model;
 
 import javax.persistence.*;
 
-@Entity
-@Table(name = "country")
 public class Country {
-    @Id
-    @Column(name = "country_id")
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    Integer countryId;
-    @Column(name = "country_name")
-    String countryName;
 
+    Integer countryId;
+    String countryName;
     Boolean selected;
 
     public Country() {

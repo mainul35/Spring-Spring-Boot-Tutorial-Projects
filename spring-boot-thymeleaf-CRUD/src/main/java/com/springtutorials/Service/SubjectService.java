@@ -1,6 +1,5 @@
 package com.springtutorials.Service;
 
-import com.springtutorials.Repository.SubjectRepository;
 import com.springtutorials.model.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,12 +10,6 @@ import java.util.Objects;
 
 @Service
 public class SubjectService {
-    @Autowired
-    SubjectRepository subjectRepository;
-
-    public void saveOrUpdate(Subject subject) {
-        subjectRepository.save(subject);
-    }
 
     public Subject getSubjectById(Integer id) {
         return this.findAll().stream()
@@ -31,7 +24,6 @@ public class SubjectService {
 
     public List<Subject> findAll() {
         List<Subject> subjects = new ArrayList();
-//        subjectRepository.findAll().forEach(subjects::add);
         subjects.add(new Subject(1, "Bangla", false));
         subjects.add(new Subject(2, "English", false));
         subjects.add(new Subject(3, "Math", false));
@@ -40,9 +32,5 @@ public class SubjectService {
         subjects.add(new Subject(6, "Physics", false));
 
         return subjects;
-    }
-
-    public void delete(Integer id) {
-        subjectRepository.delete(id);
     }
 }

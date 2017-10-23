@@ -1,14 +1,11 @@
-package com.springtutorials.model;
+package com.springtutorials.Entity;
 
-import org.hibernate.annotations.Type;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.StringTokenizer;
 
 @Entity
 @Table(name = "user")

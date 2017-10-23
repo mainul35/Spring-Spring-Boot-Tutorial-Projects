@@ -5,13 +5,9 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table(name = "sex")
 public class Sex {
-    @Id
-    @Column(name = "sex_type_id")
+
     Integer typeId;
-    @Column(name = "sex_type")
     String type;
     Boolean selected;
 

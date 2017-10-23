@@ -1,9 +1,8 @@
 package com.springtutorials.Service;
 
 import com.springtutorials.Repository.StudentRepository;
-import com.springtutorials.model.Student;
+import com.springtutorials.Entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
