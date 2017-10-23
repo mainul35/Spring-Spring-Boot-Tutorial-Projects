@@ -94,18 +94,18 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (2,'user','$2a$11$aQ8I.LKzaxDZxKSDZi8bKucNMiTCdqg.aDImbgw.jHXWvmsxPc6Yy','user@gmail.com','User','true'),(3,'admin','$2a$11$aQ8I.LKzaxDZxKSDZi8bKucNMiTCdqg.aDImbgw.jHXWvmsxPc6Yy','admin20@gmail.com','Syed Mainul Hasan','1');
+INSERT INTO `user` VALUES (2,'user','$2a$11$aQ8I.LKzaxDZxKSDZi8bKucNMiTCdqg.aDImbgw.jHXWvmsxPc6Yy','user@gmail.com','User','1'),(3,'admin','$2a$11$aQ8I.LKzaxDZxKSDZi8bKucNMiTCdqg.aDImbgw.jHXWvmsxPc6Yy','admin20@gmail.com','Syed Mainul Hasan','1');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `user_autrhority`
+-- Table structure for table `user_authority`
 --
 
-DROP TABLE IF EXISTS `user_autrhority`;
+DROP TABLE IF EXISTS `user_authority`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `user_autrhority` (
+CREATE TABLE `user_authority` (
   `user_id` int(11) NOT NULL,
   `authority_id` int(11) NOT NULL,
   `user_autrhority_id` int(11) NOT NULL AUTO_INCREMENT,
@@ -117,9 +117,9 @@ CREATE TABLE `user_autrhority` (
 -- Dumping data for table `user_autrhority`
 --
 
-LOCK TABLES `user_autrhority` WRITE;
+LOCK TABLES `user_authority` WRITE;
 /*!40000 ALTER TABLE `user_autrhority` DISABLE KEYS */;
-INSERT INTO `user_autrhority` VALUES (3,1,1),(2,2,2),(3,2,5);
+INSERT INTO `user_authority` VALUES (3,1,1),(2,2,2),(3,2,5);
 /*!40000 ALTER TABLE `user_autrhority` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
