@@ -32,10 +32,11 @@ public class UserService implements UserDetailsService {
         com.springtutorials.Entity.User user = userRepository.findByUsername(username);
         List<Map<String, Object>> maps = jdbcTemplate.queryForList(
                 "select a.id, a.authority, u.username " +
-                "from `user` u, `authority` a, `user_autrhority` au " +
+                "from `user` u, `authority` a, `user_authority` au " +
                 "where u.id = au.user_id " +
                 "and a.id = au.authority_id " +
                 "and u.username = '"+username+"'");
+        System.out.println(maps.toString());
         List<Authority> authorities = new ArrayList<>();
 
         for (Map<String, Object> map:maps) {
@@ -49,7 +50,7 @@ public class UserService implements UserDetailsService {
 
         User user1 = new User(user.getUsername(), user.getPassword(), authorities);
 
-        System.out.println(user1.toString());
+//        System.out.println(user1.toString());
         return user1;
     }
 

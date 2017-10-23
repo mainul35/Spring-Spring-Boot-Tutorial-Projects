@@ -15,35 +15,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springtutorials/Repository/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubjectService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springtutorials/Service/SubjectService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springtutorials/Service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="-216">
+              <caret line="34" column="56" lean-forward="false" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
               <folding>
-                <marker date="1508735894783" expanded="true" signature="1271:1525" ph="select a.id,... user" />
-                <marker date="1508735894783" expanded="true" signature="2495:2769" ph="insert into user_autrhority... " />
-                <marker date="1508735894783" expanded="true" signature="2572:2769" ph="select u.id,... user" />
+                <marker date="1508737005569" expanded="true" signature="1271:1524" ph="select a.id,... user" />
+                <marker date="1508737005569" expanded="true" signature="2541:2815" ph="insert into user_autrhority... " />
+                <marker date="1508737005569" expanded="true" signature="2618:2815" ph="select u.id,... user" />
               </folding>
             </state>
           </provider>
@@ -89,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -99,11 +79,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springtutorials/Security/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springtutorials/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+            <state relative-caret-position="108">
+              <caret line="80" column="11" lean-forward="false" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -141,9 +141,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springtutorials/Service/SubjectService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springtutorials/Service/CountryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springtutorials/Controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springtutorials/Service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springtutorials/Service/UserService.java" />
       </list>
     </option>
   </component>
@@ -215,79 +215,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springtutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-thymeleaf-CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springtutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-thymeleaf-CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springtutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-thymeleaf-CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springtutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-thymeleaf-CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springtutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-thymeleaf-CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springtutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="Rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-thymeleaf-CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springtutorials" type="462c0819:PsiDirectoryNode" />
               <item name="Security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-thymeleaf-CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springtutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-thymeleaf-CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springtutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-tutorials" type="b2602c69:ProjectViewProjectNode" />
@@ -448,12 +376,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508733293158</updated>
-      <workItem from="1508733296500" duration="3084000" />
+      <workItem from="1508733296500" duration="3742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3084000" />
+    <option name="totallyTimeSpent" value="3742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="-11" width="1331" height="780" extended-state="6" />
@@ -534,14 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springtutorials/Security/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springtutorials/Security/CustomAuthSuccessHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -594,14 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springtutorials/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -710,22 +622,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springtutorials/Service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springtutorials/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <marker date="1508735894783" expanded="true" signature="1271:1525" ph="select a.id,... user" />
-            <marker date="1508735894783" expanded="true" signature="2495:2769" ph="insert into user_autrhority... " />
-            <marker date="1508735894783" expanded="true" signature="2572:2769" ph="select u.id,... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+        <state relative-caret-position="219">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -735,6 +635,34 @@
         <state relative-caret-position="252">
           <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="80" column="11" lean-forward="false" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springtutorials/Security/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springtutorials/Service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="34" column="56" lean-forward="false" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+          <folding>
+            <marker date="1508737005569" expanded="true" signature="1271:1524" ph="select a.id,... user" />
+            <marker date="1508737005569" expanded="true" signature="2541:2815" ph="insert into user_autrhority... " />
+            <marker date="1508737005569" expanded="true" signature="2618:2815" ph="select u.id,... user" />
+          </folding>
         </state>
       </provider>
     </entry>
