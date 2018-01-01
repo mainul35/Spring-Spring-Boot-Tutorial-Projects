@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringMVC_JavaConfig" />
+        <module name="SpringMVC_JavaConfig-Form-Data-in-Memory-CRUD" />
+        <module name="SpringMVC_JavaConfig-Saving-Form-Data-into Database" />
+        <module name="SpringMVC_Security_JavaConfig-in-Memory-authentication" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringMVC_JavaConfig" target="1.8" />
+      <module name="SpringMVC_JavaConfig-Form-Data-in-Memory-CRUD" target="1.8" />
+      <module name="SpringMVC_JavaConfig-Saving-Form-Data-into Database" target="1.8" />
+      <module name="SpringMVC_Security_JavaConfig-in-Memory-authentication" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
