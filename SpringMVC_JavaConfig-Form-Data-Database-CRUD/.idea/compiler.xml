@@ -6,13 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringMVC-java-config" />
+        <module name="SpringMVC-java-config-form-data-Database-CRUD" />
         <module name="SpringMVC_JavaConfig" />
         <module name="SpringMVC_JavaConfig-Form-Data-in-Memory-CRUD" />
         <module name="SpringMVC_JavaConfig-Saving-Form-Data-into Database" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="SpringMVC-java-config" target="1.8" />
+      <module name="SpringMVC-java-config-form-data-Database-CRUD" target="1.8" />
       <module name="SpringMVC_JavaConfig" target="1.8" />
+      <module name="SpringMVC_JavaConfig-Form-Data-Database-CRUD" target="1.8" />
       <module name="SpringMVC_JavaConfig-Form-Data-in-Memory-CRUD" target="1.8" />
       <module name="SpringMVC_JavaConfig-Saving-Form-Data-into Database" target="1.8" />
     </bytecodeTargetLevel>
