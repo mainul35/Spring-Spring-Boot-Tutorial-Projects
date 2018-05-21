@@ -1,9 +1,0 @@
-.idea
-.settings
-node_modules
-target
-.classpath
-.project
-chainservice-auth-server.iml
-npm-debug.log
-system_catalog.xml

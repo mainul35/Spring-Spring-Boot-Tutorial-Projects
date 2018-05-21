@@ -7,3 +7,4 @@ target
 chainservice-auth-server.iml
 npm-debug.log
 system_catalog.xml
+dist
