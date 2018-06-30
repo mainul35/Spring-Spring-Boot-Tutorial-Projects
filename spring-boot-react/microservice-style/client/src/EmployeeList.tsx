@@ -18,11 +18,15 @@ class EmployeeList extends React.Component<{}, IEmployeeList> {
 
     public componentDidMount() {
         this.setState({isLoading: true});
-        fetch("http://localhost:8081/employees")
-            .then(response => response.json())
-            .then(data => {
-                this.setState({employees: data, isLoading: false})
-            });
+        setInterval(()=>{
+            // console.log("abc");
+            fetch("http://localhost:8081/employees")
+                .then(response => response.json())
+                .then(data => {
+                    this.setState({employees: data, isLoading: false})
+                });
+        }, 1000);
+
     }
 
     public addPersonScreen(event: any) {
@@ -65,6 +69,7 @@ class EmployeeList extends React.Component<{}, IEmployeeList> {
 
                 <h2>Person List</h2>
                 {
+                    // setInterval(function(){ alert("Hello"); }, 3000);
                     this.state.employees.map((employee: any) => {
                         return <div key={employee.id}>{employee.firstName + " " + employee.lastName}</div>;
                     })
