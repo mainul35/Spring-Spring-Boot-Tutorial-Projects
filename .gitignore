@@ -1,0 +1,12 @@
+.idea/
+.settings
+node_modules
+target/
+.classpath
+.project
+*.iml
+npm-debug.log
+system_catalog.xml
+dist/
+.jar
+.speingBeans

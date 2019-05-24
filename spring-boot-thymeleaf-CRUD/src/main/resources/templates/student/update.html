@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>index</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript"
+            th:src="@{/js/validation.js}"></script>
+</head>
+
+<body>
+<br><br><br>
+<div class="container">
+    <h2>Form control: input</h2>
+
+    <p th:text="${msg}"></p>
+
+    <form action="#" th:action="@{/student/update}" th:object="${student}" method="post">
+
+        <div class="form-group" th:classappend="${#fields.hasErrors('studentName')}? 'has-error'">
+            <label for="name" class="col-lg-2 control-label">Name</label>
+            <div class="col-lg-10">
+                <input type="text" class="form-control" id="name" placeholder="student Name" th:field="*{studentName}"/>
+                <span class="help-block" th:if="${#fields.hasErrors('studentName')}" th:errors="*{studentName}">Incorrect Name</span>
+                <br><span id="msg-name"></span>
+            </div>
+        </div>
+        <div class="form-group" th:classappend="${#fields.hasErrors('email')}? 'has-error'">
+            <label for="email" class="col-lg-2 control-label">Email</label>
+            <div class="col-lg-10">
+                <input type="email" class="form-control" id="email" placeholder="student Email" th:field="*{email}" readonly/>
+                <!--email <span>Email : <th:block th:text="*{email}"></th:block> </span>-->
+                <br><span id="msg-email"></span>
+            </div>
+        </div>
+        <div class="form-group" th:classappend="${#fields.hasErrors('sex')}? 'has-error'">
+            <label for="name" class="col-lg-2 control-label">Sex</label>
+            <div class="col-lg-10">
+                <li th:each="s : ${sexList}">
+                    <input type="radio" class="sex" name="sex" th:field="*{sex}" th:value="${s.type}" th:checked="${s.selected}"/>
+                    <span class="primary" th:text="${s.type}"></span>
+                </li>
+                <!--<span>Selected Sex : <th:block th:text="*{sex}"></th:block> </span>-->
+                <br><span id="msg-sex"></span>
+            </div>
+        </div>
+        <div class="form-group" th:classappend="${#fields.hasErrors('subject')}? 'has-error'">
+            <label for="name" class="col-lg-2 control-label">Subject</label>
+            <div class="col-lg-10">
+                <li th:each="sub : ${subjects}">
+                    <input type="checkbox" class="subjects" name="subjects" th:value="${sub.subjectName}" th:checked="${sub.selected}==true"/>
+                    <span class="primary" th:text="${sub.subjectName}"></span>
+                </li><br>
+                <!--<span>Selected Subjects : <th:block th:text="*{subject}"></th:block> </span>-->
+                <span id="msg-subject"></span>
+            </div>
+        </div>
+        <div class="form-group" th:classappend="${#fields.hasErrors('subject')}? 'has-error'">
+            <label for="name" class="col-lg-2 control-label">Country</label>
+            <div class="col-lg-10">
+                <select id="countryList" name="country">
+                    <option th:each="country : ${countries}" th:value="${country.countryName}"
+                            th:text="${country.countryName}"
+                            th:selected="${country.selected}==true?${country.countryName}"/>
+                </select><br>
+                <span id="msg-country"></span>
+                <!--<span>Selected Country : <th:block th:text="*{country}"></th:block> </span>-->
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="submit" id="submit" value="Save">
+        </div>
+    </form>
+</div>
+</body>
+
+
+</html>

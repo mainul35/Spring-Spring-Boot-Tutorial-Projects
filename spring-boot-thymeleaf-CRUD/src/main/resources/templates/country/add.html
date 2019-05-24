@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>index</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h2>Add Country</h2>
+    <form action="#" th:action="@{/country/add}" th:object="${country}" method="post">
+        <table>
+            <tr>
+                <td><td><input type="text" th:field="*{id}"/></td></td>
+            </tr>
+            <tr>
+                <td>Country Name:</td>
+                <td><input type="text" th:field="*{countryName}"/></td>
+                <td th:if="${#fields.hasErrors('countryName')}" th:errors="*{countryName}">Name Error</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+
+
+</html>

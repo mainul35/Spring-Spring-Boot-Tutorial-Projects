@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link th:href="@{/contents/css/signup.css}" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript"
+            th:src="@{/contents/js/signup.js}"></script>
+    <!--/*/ <th:block th:include="includes/components :: components"></th:block> /*/-->
+</head>
+<body>
+
+</li>
+<div id="fullscreen_bg" class="fullscreen_bg">
+    <!--/*/ <th:block th:include="includes/header :: header"></th:block> /*/-->
+    <div class="container">
+        <div class="card card-container">
+            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"/>
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin" method="POST" th:action="@{/login-processing}">
+                <div th:if="${param.error}" class="alert alert-danger">
+                    Invalid username and password.
+                </div>
+                <div th:if="${param.logout}" class="alert alert-success">
+                    You have been logged out.
+                </div>
+                <h1 class="form-signin-heading text-muted">Sign In</h1>
+                <input type="text" name="username" class="form-control" placeholder="Username" autofocus>
+                <input type="password" name="password" class="form-control" placeholder="Password">
+                <input class="btn btn-lg btn-primary btn-block" type="submit">
+                </input>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
