@@ -1,7 +1,10 @@
 package com.mainul35;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.hibernate4.LocalSessionFactoryBean;
@@ -15,19 +18,32 @@ import java.util.Properties;
 
 @Configuration
 @EnableJpaRepositories("com.mainul35.repository")
+@PropertySource({
+        "classpath:application.properties",
+        "classpath:application-${activeProfile}.properties"})
 public class MysqlConfig {
-    public static final String DB_DRIVER_CLASS = "com.mysql.jdbc.Driver";
-    public static final String DB_URL = "jdbc:mysql://localhost:3306/test?createDatabaseIfNotExist=true";
-    public static final String DB_USER = "root";
-    public static final String DB_PASSWORD = "";
+
+    @Value("${driverClassName}")
+    private String DB_DRIVER_CLASS;
+    @Value("${spring.datasource.url}")
+    private String DB_URL;
+    @Value("${spring.datasource.username}")
+    private String DB_USER;
+    @Value("${spring.datasource.password}")
+    private String DB_PASSWORD;
 
     public static final String HIBERNATE_DIALECT = "org.hibernate.dialect.MySQL5Dialect";
     public static final String HIBERNATE_SHOW_SQL = "true";
     public static final String HBM2DDL_AUTO = "update";
-    public static final String ENTITY_MANAGER_PACKAGES_TO_SCAN = "com.springprojects.entity";
+    public static final String ENTITY_MANAGER_PACKAGES_TO_SCAN = "com.mainul35.model";
+
+    @Bean
+    public static PropertySourcesPlaceholderConfigurer propertyConfigInDev() {
+        return new PropertySourcesPlaceholderConfigurer();
+    }
 
     @Bean(name = "dataSource")
-    public static DriverManagerDataSource dataSource() {
+    public DriverManagerDataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName(DB_DRIVER_CLASS);
         dataSource.setUrl(DB_URL);     //MySQL Specific: +"?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false"

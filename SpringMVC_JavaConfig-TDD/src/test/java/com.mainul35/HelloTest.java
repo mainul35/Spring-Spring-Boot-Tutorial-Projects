@@ -1,56 +1,58 @@
 package com.mainul35;
 
+//import com.github.springtestdbunit.DbUnitTestExecutionListener;
 import com.mainul35.model.User;
 import com.mainul35.repository.UserRepository;
 import com.mainul35.service.UserService;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Mockito;
-import org.mockito.junit.MockitoJUnitRunner;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.TestExecutionListeners;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.context.support.DependencyInjectionTestExecutionListener;
+import org.springframework.test.context.transaction.TransactionalTestExecutionListener;
 
-@RunWith(MockitoJUnitRunner.class)
-@WebMvcTest
+import java.util.Arrays;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = {MysqlConfig.class})
+//@TestExecutionListeners({DependencyInjectionTestExecutionListener.class,
+//        TransactionalTestExecutionListener.class,
+//        DbUnitTestExecutionListener.class})
 public class HelloTest {
+
     private UserService userService;
 
-    private UserRepository userRepositoryMock;
+    @Autowired
+    UserRepository userRepository;
 
     @Before
-    public void setUp() {
+    public void init () {
         userService = new UserService();
-
-        userRepositoryMock = Mockito.mock(UserRepository.class);
-        userService.setUserRepository(userRepositoryMock);
+        userService.setUserRepository(userRepository);
     }
 
+    // This test will use repository instance to find all users
     @Test
-    public void saveUserTest () {
+    public void findAll() {
+        assertThat(userRepository.findAll()).asList();
+        System.out.println(Arrays.toString(userRepository.findAll().toArray()));
+    }
+
+    // This test will use service instance to find all users
+    @Test
+    public void addUser() {
         User user = new User();
-        user.setId(2L);
-        user.setName("Syed Mainul Hasan");
+        user.setName("Mainul Hasan");
+        user.setEmail("mainuls18@gmail.com");
         user.setAge(25);
         user.setCountry("Bangladesh");
-        user.setEmail("mainuls181@gmail.com");
-        user.setSex("Male");
-        user.setPhoneNumber("+8801634440004");
-        userRepositoryMock.save(user);
-
-        Mockito.verify(userRepositoryMock, Mockito.times(1)).save(user);
-
+//        assertThat(userRepository.save(user)).isEqualTo(user);
+        assertThat(userRepository.findAll()).asList();
+        System.out.println(Arrays.toString(userService.getAllUsers().toArray()));
     }
-
-    @Test
-    public void findUserTest () {
-        User user = userService.getUser("mainuls18@gmail.com");
-
-        Mockito.when(userRepositoryMock.save(Mockito.any(User.class))).thenReturn(user);
-
-        User found = userRepositoryMock.findByEmail("mainuls18@gmail.com");
-
-        Assert.assertEquals((long)user.getId(), 1L);
-
-    }
-
 }
