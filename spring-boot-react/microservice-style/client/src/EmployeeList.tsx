@@ -24,8 +24,10 @@ class EmployeeList extends React.Component<{}, IEmployeeList> {
                 .then(response => response.json())
                 .then(data => {
                     this.setState({employees: data, isLoading: false})
-                });
-        }, 1000);
+                }).catch(error => {
+                    console.log("Server offline or some error occured!")
+            });
+        }, 10000);
 
     }
 
