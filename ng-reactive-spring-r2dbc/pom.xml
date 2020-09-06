@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.linkedinlearning</groupId>
-    <artifactId>reactivespring</artifactId>
+    <artifactId>reactive-spring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>reactivespring</name>
+    <name>be-reservation</name>
     <description>Demo project for Reactive Spring Boot</description>
 
     <properties>
