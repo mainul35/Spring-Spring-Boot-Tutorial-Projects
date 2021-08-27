@@ -3,8 +3,6 @@ package com.mainul35.springbootjaxrs.resource;
 import com.mainul35.springbootjaxrs.model.User;
 import com.mainul35.springbootjaxrs.service.UserService;
 import org.springframework.stereotype.Component;
-import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
