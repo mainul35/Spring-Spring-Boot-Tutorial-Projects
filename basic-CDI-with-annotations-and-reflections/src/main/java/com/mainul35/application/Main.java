@@ -11,11 +11,12 @@ import java.lang.reflect.Method;
 
 public class Main {
 
+    AppService appService;
+
     public static void main(String[] args) throws InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException, ClassNotFoundException {
         callingFromCDIContext();
 
 //        annotationAndReflectionUnderstanding();
-
     }
 
     private static void annotationAndReflectionUnderstanding() throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, ClassNotFoundException {
@@ -51,8 +52,8 @@ public class Main {
         AppServiceCaller caller1 = (AppServiceCaller) ContextHolder.getContext().getBean("com.mainul35.application.AppServiceCaller");
         AppServiceCaller caller2 = ContextHolder.getContext().getBean(AppServiceCaller.class);
 
-        System.out.println(ContextHolder.getContext());
-        System.out.println(ContextHolder.getContext());
+//        System.out.println(ContextHolder.getContext());
+//        System.out.println(ContextHolder.getContext());
 
         caller1.sayHello1();
         caller2.sayHello2();
