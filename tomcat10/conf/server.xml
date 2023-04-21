@@ -87,17 +87,21 @@
          Either JSSE or OpenSSL style configuration may be used regardless of
          the SSLImplementation selected. JSSE style configuration is used below.
     -->
-    <Connector protocol="HTTP/1.1" SSLEnabled="true" acceptCount="100" clientAuth="false"
-        disableUploadTimeout="true"
-        enableLookups="false"
-        maxThreads="25"
-            port="8443"
-	    keystoreFile="certs/mainul35.dev.jks"
-            keystorePass="password123"
-            scheme="https"
-            secure="true"
-            sslProtocol="TLS"
-		/>
+    <Connector port="443"
+               protocol="org.apache.coyote.http11.Http11NioProtocol"
+               maxThreads="100"
+               compression="on"
+               scheme="https"
+               SSLEnabled="true"
+               secure="true"
+               defaultSSLHostConfigName="mainul35.dev">
+      <SSLHostConfig hostName="mainul35.dev"
+                     protocols="TLSv1.2">
+        <Certificate certificateFile="certs/mainul35.dev.jks"
+                     certificateKeyFile="conf/privkey.pem"
+                     certificateChainFile="conf/chain.pem" />
+      </SSLHostConfig>
+    </Connector>
 	
 	<!--
 	<UpgradeProtocol className="org.apache.coyote.http2.Http2Protocol" />
