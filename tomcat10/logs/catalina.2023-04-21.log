@@ -1,0 +1,809 @@
+21-Apr-2023 01:17:10.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.8
+21-Apr-2023 01:17:10.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 14 2023 19:40:29 UTC
+21-Apr-2023 01:17:10.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.8.0
+21-Apr-2023 01:17:10.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Apr-2023 01:17:10.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.19.0-32-generic
+21-Apr-2023 01:17:10.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Apr-2023 01:17:10.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto
+21-Apr-2023 01:17:10.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+7-LTS
+21-Apr-2023 01:17:10.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+21-Apr-2023 01:17:10.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 01:17:10.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 01:17:10.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/conf/logging.properties
+21-Apr-2023 01:17:10.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2023 01:17:10.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2023 01:17:10.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2023 01:17:10.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2023 01:17:10.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2023 01:17:10.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2023 01:17:10.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2023 01:17:10.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2023 01:17:10.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2023 01:17:10.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 01:17:10.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 01:17:10.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/temp
+21-Apr-2023 01:17:10.558 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Apr-2023 01:17:10.784 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 01:17:10.804 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [399] milliseconds
+21-Apr-2023 01:17:10.836 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2023 01:17:10.837 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.8]
+21-Apr-2023 01:17:10.853 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war]
+21-Apr-2023 01:17:11.085 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war] has finished in [232] ms
+21-Apr-2023 01:17:11.086 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs]
+21-Apr-2023 01:17:11.114 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs] has finished in [28] ms
+21-Apr-2023 01:17:11.115 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples]
+21-Apr-2023 01:17:11.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples] has finished in [256] ms
+21-Apr-2023 01:17:11.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager]
+21-Apr-2023 01:17:11.398 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager] has finished in [27] ms
+21-Apr-2023 01:17:11.399 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager]
+21-Apr-2023 01:17:11.421 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager] has finished in [21] ms
+21-Apr-2023 01:17:11.424 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 01:17:11.434 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [630] milliseconds
+21-Apr-2023 01:17:50.091 INFO [http-nio-8080-exec-1] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030x81I0x090xfe0xd1l]0x93B0xd3N0xfeFph8@\0x9ci0xc60xdb0x970x000x130xbbl0xf90x08t0xba0x1d ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+21-Apr-2023 01:17:50.091 INFO [http-nio-8080-exec-10] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03?0x08V0xe80x1aN0xfc0xc90xea0xc3390x0c0xe10xef0xe4N0xdc3%y0x9d0x087[40xc60x970x880xe10x830x18 ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+21-Apr-2023 22:08:08.140 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [clientAuth] to [false]
+21-Apr-2023 22:08:08.145 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystoreFile] to [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/certs/mainul35.dev.jks]
+21-Apr-2023 22:08:08.145 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystorePass] to [password123]
+21-Apr-2023 22:08:08.145 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [sslProtocol] to [TLS]
+21-Apr-2023 22:08:08.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.8
+21-Apr-2023 22:08:08.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 14 2023 19:40:29 UTC
+21-Apr-2023 22:08:08.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.8.0
+21-Apr-2023 22:08:08.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Apr-2023 22:08:08.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.19.0-32-generic
+21-Apr-2023 22:08:08.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Apr-2023 22:08:08.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto
+21-Apr-2023 22:08:08.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+7-LTS
+21-Apr-2023 22:08:08.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+21-Apr-2023 22:08:08.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:08:08.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:08:08.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/conf/logging.properties
+21-Apr-2023 22:08:08.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2023 22:08:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2023 22:08:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2023 22:08:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2023 22:08:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2023 22:08:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2023 22:08:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2023 22:08:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2023 22:08:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2023 22:08:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:08:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:08:08.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/temp
+21-Apr-2023 22:08:08.178 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Apr-2023 22:08:08.400 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:08:08.422 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[org.apache.coyote.http11.Http11NioProtocol-8443]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1018)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1003)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.lang.IllegalArgumentException: No SSLHostConfig element was found with the hostName [_default_] to match the defaultSSLHostConfigName for the connector [https-jsse-nio-8443]
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:75)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:207)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1256)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1269)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:622)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1016)
+		... 13 more
+21-Apr-2023 22:08:08.422 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [398] milliseconds
+21-Apr-2023 22:08:08.461 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2023 22:08:08.461 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.8]
+21-Apr-2023 22:08:08.479 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war]
+21-Apr-2023 22:08:08.715 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war] has finished in [235] ms
+21-Apr-2023 22:08:08.715 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs]
+21-Apr-2023 22:08:08.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs] has finished in [25] ms
+21-Apr-2023 22:08:08.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples]
+21-Apr-2023 22:08:08.921 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples] has finished in [179] ms
+21-Apr-2023 22:08:08.921 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager]
+21-Apr-2023 22:08:08.941 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager] has finished in [20] ms
+21-Apr-2023 22:08:08.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager]
+21-Apr-2023 22:08:08.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager] has finished in [16] ms
+21-Apr-2023 22:08:08.960 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [537] milliseconds
+21-Apr-2023 22:08:08.963 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:576)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:887)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:833)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+21-Apr-2023 22:08:08.964 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:08:08.964 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Apr-2023 22:08:08.982 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:08:08.983 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:10:06.681 INFO [http-nio-8080-exec-6] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030x0e0x910xd5=J-0xa5Zv80xfc0x0b0x96ESAB0x080xbabj0xf1SVt&0x910x840x860xdf0x150xc6 ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+21-Apr-2023 22:10:55.815 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Apr-2023 22:10:55.815 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:10:55.817 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Apr-2023 22:10:55.835 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:10:55.841 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:18:41.728 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [clientAuth] to [false]
+21-Apr-2023 22:18:41.732 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystoreFile] to [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/certs/mainul35.dev.jks]
+21-Apr-2023 22:18:41.732 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystorePass] to [password123]
+21-Apr-2023 22:18:41.733 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [sslProtocol] to [TLS]
+21-Apr-2023 22:18:41.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.8
+21-Apr-2023 22:18:41.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 14 2023 19:40:29 UTC
+21-Apr-2023 22:18:41.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.8.0
+21-Apr-2023 22:18:41.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Apr-2023 22:18:41.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.19.0-32-generic
+21-Apr-2023 22:18:41.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Apr-2023 22:18:41.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto
+21-Apr-2023 22:18:41.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+7-LTS
+21-Apr-2023 22:18:41.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+21-Apr-2023 22:18:41.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:18:41.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:18:41.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/conf/logging.properties
+21-Apr-2023 22:18:41.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2023 22:18:41.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2023 22:18:41.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2023 22:18:41.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2023 22:18:41.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2023 22:18:41.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2023 22:18:41.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2023 22:18:41.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2023 22:18:41.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2023 22:18:41.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:18:41.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:18:41.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/temp
+21-Apr-2023 22:18:41.765 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Apr-2023 22:18:41.991 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:18:42.012 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[org.apache.coyote.http11.Http11NioProtocol-8443]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1018)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1003)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.lang.IllegalArgumentException: No SSLHostConfig element was found with the hostName [_default_] to match the defaultSSLHostConfigName for the connector [https-jsse-nio-8443]
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:75)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:207)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1256)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1269)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:622)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1016)
+		... 13 more
+21-Apr-2023 22:18:42.013 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [399] milliseconds
+21-Apr-2023 22:18:42.044 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2023 22:18:42.044 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.8]
+21-Apr-2023 22:18:42.061 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war]
+21-Apr-2023 22:18:42.293 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war] has finished in [231] ms
+21-Apr-2023 22:18:42.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs]
+21-Apr-2023 22:18:42.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs] has finished in [25] ms
+21-Apr-2023 22:18:42.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples]
+21-Apr-2023 22:18:42.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples] has finished in [178] ms
+21-Apr-2023 22:18:42.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager]
+21-Apr-2023 22:18:42.518 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager] has finished in [20] ms
+21-Apr-2023 22:18:42.518 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager]
+21-Apr-2023 22:18:42.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager] has finished in [16] ms
+21-Apr-2023 22:18:42.538 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [524] milliseconds
+21-Apr-2023 22:29:33.187 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [clientAuth] to [false]
+21-Apr-2023 22:29:33.191 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystoreFile] to [~/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/certs/mainul35.dev.jks]
+21-Apr-2023 22:29:33.191 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystorePass] to [password123]
+21-Apr-2023 22:29:33.191 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [sslProtocol] to [TLS]
+21-Apr-2023 22:29:33.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.8
+21-Apr-2023 22:29:33.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 14 2023 19:40:29 UTC
+21-Apr-2023 22:29:33.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.8.0
+21-Apr-2023 22:29:33.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Apr-2023 22:29:33.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.19.0-32-generic
+21-Apr-2023 22:29:33.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Apr-2023 22:29:33.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto
+21-Apr-2023 22:29:33.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+7-LTS
+21-Apr-2023 22:29:33.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+21-Apr-2023 22:29:33.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:29:33.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:29:33.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/conf/logging.properties
+21-Apr-2023 22:29:33.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2023 22:29:33.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2023 22:29:33.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2023 22:29:33.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2023 22:29:33.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2023 22:29:33.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2023 22:29:33.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2023 22:29:33.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2023 22:29:33.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2023 22:29:33.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:29:33.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:29:33.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/temp
+21-Apr-2023 22:29:33.223 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Apr-2023 22:29:33.455 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:29:33.477 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[org.apache.coyote.http11.Http11NioProtocol-8443]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1018)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1003)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.lang.IllegalArgumentException: No SSLHostConfig element was found with the hostName [_default_] to match the defaultSSLHostConfigName for the connector [https-jsse-nio-8443]
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:75)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:207)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1256)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1269)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:622)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1016)
+		... 13 more
+21-Apr-2023 22:29:33.478 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [406] milliseconds
+21-Apr-2023 22:29:33.511 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2023 22:29:33.511 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.8]
+21-Apr-2023 22:29:33.528 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war]
+21-Apr-2023 22:29:33.769 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war] has finished in [240] ms
+21-Apr-2023 22:29:33.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs]
+21-Apr-2023 22:29:33.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs] has finished in [29] ms
+21-Apr-2023 22:29:33.799 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples]
+21-Apr-2023 22:29:34.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples] has finished in [230] ms
+21-Apr-2023 22:29:34.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager]
+21-Apr-2023 22:29:34.059 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager] has finished in [30] ms
+21-Apr-2023 22:29:34.059 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager]
+21-Apr-2023 22:29:34.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager] has finished in [22] ms
+21-Apr-2023 22:29:34.086 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [607] milliseconds
+21-Apr-2023 22:29:34.088 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:576)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:887)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:833)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+21-Apr-2023 22:29:34.089 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:29:34.089 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Apr-2023 22:29:34.116 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:29:34.119 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:31:19.989 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [clientAuth] to [false]
+21-Apr-2023 22:31:19.993 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystoreFile] to [~/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/certs/mainul35.dev.jks]
+21-Apr-2023 22:31:19.993 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystorePass] to [password123]
+21-Apr-2023 22:31:19.994 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [sslProtocol] to [TLS]
+21-Apr-2023 22:31:20.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.8
+21-Apr-2023 22:31:20.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 14 2023 19:40:29 UTC
+21-Apr-2023 22:31:20.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.8.0
+21-Apr-2023 22:31:20.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Apr-2023 22:31:20.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.19.0-32-generic
+21-Apr-2023 22:31:20.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Apr-2023 22:31:20.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto
+21-Apr-2023 22:31:20.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+7-LTS
+21-Apr-2023 22:31:20.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+21-Apr-2023 22:31:20.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:31:20.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:31:20.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/conf/logging.properties
+21-Apr-2023 22:31:20.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2023 22:31:20.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2023 22:31:20.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2023 22:31:20.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2023 22:31:20.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2023 22:31:20.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2023 22:31:20.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2023 22:31:20.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2023 22:31:20.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2023 22:31:20.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:31:20.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:31:20.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/temp
+21-Apr-2023 22:31:20.031 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Apr-2023 22:31:20.288 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:31:20.311 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[org.apache.coyote.http11.Http11NioProtocol-8443]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1018)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1003)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.lang.IllegalArgumentException: No SSLHostConfig element was found with the hostName [_default_] to match the defaultSSLHostConfigName for the connector [https-jsse-nio-8443]
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:75)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:207)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1256)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1269)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:622)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1016)
+		... 13 more
+21-Apr-2023 22:31:20.312 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [439] milliseconds
+21-Apr-2023 22:31:20.344 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2023 22:31:20.344 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.8]
+21-Apr-2023 22:31:20.361 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war]
+21-Apr-2023 22:31:20.603 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war] has finished in [242] ms
+21-Apr-2023 22:31:20.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs]
+21-Apr-2023 22:31:20.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs] has finished in [27] ms
+21-Apr-2023 22:31:20.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples]
+21-Apr-2023 22:31:20.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples] has finished in [181] ms
+21-Apr-2023 22:31:20.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager]
+21-Apr-2023 22:31:20.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager] has finished in [22] ms
+21-Apr-2023 22:31:20.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager]
+21-Apr-2023 22:31:20.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager] has finished in [18] ms
+21-Apr-2023 22:31:20.858 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [545] milliseconds
+21-Apr-2023 22:31:20.861 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:576)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:887)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:833)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+21-Apr-2023 22:31:20.862 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:31:20.862 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Apr-2023 22:31:20.882 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:31:20.883 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:31:42.284 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Apr-2023 22:31:42.285 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:31:42.285 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Apr-2023 22:31:42.307 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:31:42.309 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:38:05.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.8
+21-Apr-2023 22:38:05.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 14 2023 19:40:29 UTC
+21-Apr-2023 22:38:05.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.8.0
+21-Apr-2023 22:38:05.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Apr-2023 22:38:05.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.19.0-32-generic
+21-Apr-2023 22:38:05.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Apr-2023 22:38:05.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto
+21-Apr-2023 22:38:05.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+7-LTS
+21-Apr-2023 22:38:05.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+21-Apr-2023 22:38:05.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:38:05.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:38:05.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/conf/logging.properties
+21-Apr-2023 22:38:05.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2023 22:38:05.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2023 22:38:05.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2023 22:38:05.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2023 22:38:05.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2023 22:38:05.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2023 22:38:05.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2023 22:38:05.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2023 22:38:05.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2023 22:38:05.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:38:05.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:38:05.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/temp
+21-Apr-2023 22:38:05.595 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Apr-2023 22:38:05.812 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:38:05.832 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [391] milliseconds
+21-Apr-2023 22:38:05.866 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2023 22:38:05.866 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.8]
+21-Apr-2023 22:38:05.881 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war]
+21-Apr-2023 22:38:06.116 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war] has finished in [235] ms
+21-Apr-2023 22:38:06.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs]
+21-Apr-2023 22:38:06.144 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs] has finished in [27] ms
+21-Apr-2023 22:38:06.144 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples]
+21-Apr-2023 22:38:06.320 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples] has finished in [176] ms
+21-Apr-2023 22:38:06.320 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager]
+21-Apr-2023 22:38:06.341 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager] has finished in [20] ms
+21-Apr-2023 22:38:06.341 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager]
+21-Apr-2023 22:38:06.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager] has finished in [16] ms
+21-Apr-2023 22:38:06.360 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:38:06.370 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [537] milliseconds
+21-Apr-2023 22:46:10.275 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Apr-2023 22:46:10.276 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:46:10.278 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Apr-2023 22:46:10.296 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:46:10.301 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:46:14.687 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [clientAuth] to [false]
+21-Apr-2023 22:46:14.691 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystoreFile] to [~/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/certs/mainul35.dev.jks]
+21-Apr-2023 22:46:14.691 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystorePass] to [password123]
+21-Apr-2023 22:46:14.692 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [sslProtocol] to [TLS]
+21-Apr-2023 22:46:14.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.8
+21-Apr-2023 22:46:14.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 14 2023 19:40:29 UTC
+21-Apr-2023 22:46:14.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.8.0
+21-Apr-2023 22:46:14.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Apr-2023 22:46:14.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.19.0-32-generic
+21-Apr-2023 22:46:14.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Apr-2023 22:46:14.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto
+21-Apr-2023 22:46:14.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+7-LTS
+21-Apr-2023 22:46:14.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+21-Apr-2023 22:46:14.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:46:14.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:46:14.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/conf/logging.properties
+21-Apr-2023 22:46:14.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2023 22:46:14.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2023 22:46:14.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2023 22:46:14.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2023 22:46:14.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2023 22:46:14.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2023 22:46:14.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2023 22:46:14.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2023 22:46:14.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2023 22:46:14.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:46:14.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:46:14.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/temp
+21-Apr-2023 22:46:14.724 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Apr-2023 22:46:14.960 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:46:14.989 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:46:15.002 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[org.apache.coyote.http11.Http11NioProtocol-8443]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1018)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1003)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.lang.IllegalArgumentException: No SSLHostConfig element was found with the hostName [_default_] to match the defaultSSLHostConfigName for the connector [https-jsse-nio-8443]
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:75)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:207)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1256)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1269)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:622)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1016)
+		... 13 more
+21-Apr-2023 22:46:15.002 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [429] milliseconds
+21-Apr-2023 22:46:15.047 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2023 22:46:15.047 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.8]
+21-Apr-2023 22:46:15.063 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war]
+21-Apr-2023 22:46:15.389 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war] has finished in [326] ms
+21-Apr-2023 22:46:15.390 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs]
+21-Apr-2023 22:46:15.426 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs] has finished in [36] ms
+21-Apr-2023 22:46:15.427 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples]
+21-Apr-2023 22:46:15.653 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples] has finished in [227] ms
+21-Apr-2023 22:46:15.653 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager]
+21-Apr-2023 22:46:15.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager] has finished in [27] ms
+21-Apr-2023 22:46:15.681 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager]
+21-Apr-2023 22:46:15.701 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager] has finished in [20] ms
+21-Apr-2023 22:46:15.705 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:46:15.716 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [713] milliseconds
+21-Apr-2023 22:46:32.818 INFO [http-nio-8080-exec-4] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03z0xb5;0xbf0xa7H11o0xfc0x02S0xc4@0xe90x1b0xe40x81<0x990xc30xad0x060x930x19;0xa50xa8.^N0xab ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+21-Apr-2023 22:46:32.821 INFO [http-nio-8080-exec-5] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xf80xcd40xe10xeb0xf50xf1V@0xd40xdc0xb40xd90x08i0xb20x1c0x110xd1[0x85v0xd70xf9FZ0xa0!0xc0v0xbe0xbf ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+21-Apr-2023 22:55:06.191 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Apr-2023 22:55:06.191 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:55:06.194 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:55:06.194 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Apr-2023 22:55:06.215 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:55:06.227 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:55:06.227 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:55:06.227 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:55:10.156 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [clientAuth] to [false]
+21-Apr-2023 22:55:10.161 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystoreFile] to [/home/mainul35/.local/share/keyrings/user.keystore]
+21-Apr-2023 22:55:10.161 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystorePass] to [password123]
+21-Apr-2023 22:55:10.162 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [sslProtocol] to [TLS]
+21-Apr-2023 22:55:10.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.8
+21-Apr-2023 22:55:10.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 14 2023 19:40:29 UTC
+21-Apr-2023 22:55:10.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.8.0
+21-Apr-2023 22:55:10.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Apr-2023 22:55:10.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.19.0-32-generic
+21-Apr-2023 22:55:10.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Apr-2023 22:55:10.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto
+21-Apr-2023 22:55:10.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+7-LTS
+21-Apr-2023 22:55:10.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+21-Apr-2023 22:55:10.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:55:10.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:55:10.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/conf/logging.properties
+21-Apr-2023 22:55:10.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2023 22:55:10.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2023 22:55:10.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2023 22:55:10.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2023 22:55:10.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2023 22:55:10.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2023 22:55:10.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2023 22:55:10.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2023 22:55:10.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2023 22:55:10.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:55:10.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 22:55:10.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/temp
+21-Apr-2023 22:55:10.198 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Apr-2023 22:55:10.420 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:55:10.440 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 22:55:10.449 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[org.apache.coyote.http11.Http11NioProtocol-8443]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1018)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1003)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.lang.IllegalArgumentException: No SSLHostConfig element was found with the hostName [_default_] to match the defaultSSLHostConfigName for the connector [https-jsse-nio-8443]
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:75)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:207)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1256)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1269)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:622)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1016)
+		... 13 more
+21-Apr-2023 22:55:10.449 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [410] milliseconds
+21-Apr-2023 22:55:10.479 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2023 22:55:10.479 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.8]
+21-Apr-2023 22:55:10.493 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war]
+21-Apr-2023 22:55:10.719 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war] has finished in [225] ms
+21-Apr-2023 22:55:10.719 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs]
+21-Apr-2023 22:55:10.745 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs] has finished in [25] ms
+21-Apr-2023 22:55:10.745 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples]
+21-Apr-2023 22:55:10.922 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples] has finished in [177] ms
+21-Apr-2023 22:55:10.922 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager]
+21-Apr-2023 22:55:10.945 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager] has finished in [22] ms
+21-Apr-2023 22:55:10.945 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager]
+21-Apr-2023 22:55:10.963 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager] has finished in [17] ms
+21-Apr-2023 22:55:10.966 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 22:55:10.975 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [525] milliseconds
+21-Apr-2023 23:03:22.780 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Apr-2023 23:03:22.780 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 23:03:22.783 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 23:03:22.783 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Apr-2023 23:03:22.799 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 23:03:22.806 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 23:03:22.806 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 23:03:22.807 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 23:03:26.464 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [clientAuth] to [false]
+21-Apr-2023 23:03:26.467 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystoreFile] to [/home/mainul35/.local/share/keyrings/user.keystore]
+21-Apr-2023 23:03:26.468 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystorePass] to [password123]
+21-Apr-2023 23:03:26.468 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [sslProtocol] to [TLS]
+21-Apr-2023 23:03:26.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.8
+21-Apr-2023 23:03:26.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 14 2023 19:40:29 UTC
+21-Apr-2023 23:03:26.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.8.0
+21-Apr-2023 23:03:26.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Apr-2023 23:03:26.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.19.0-32-generic
+21-Apr-2023 23:03:26.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Apr-2023 23:03:26.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto
+21-Apr-2023 23:03:26.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+7-LTS
+21-Apr-2023 23:03:26.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+21-Apr-2023 23:03:26.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 23:03:26.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 23:03:26.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/conf/logging.properties
+21-Apr-2023 23:03:26.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2023 23:03:26.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2023 23:03:26.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2023 23:03:26.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2023 23:03:26.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2023 23:03:26.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2023 23:03:26.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2023 23:03:26.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2023 23:03:26.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2023 23:03:26.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 23:03:26.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 23:03:26.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/temp
+21-Apr-2023 23:03:26.510 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Apr-2023 23:03:26.791 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 23:03:26.818 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 23:03:26.831 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[org.apache.coyote.http11.Http11NioProtocol-8443]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1018)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1003)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.lang.IllegalArgumentException: No SSLHostConfig element was found with the hostName [_default_] to match the defaultSSLHostConfigName for the connector [https-jsse-nio-8443]
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:75)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:207)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1256)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1269)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:622)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1016)
+		... 13 more
+21-Apr-2023 23:03:26.832 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [481] milliseconds
+21-Apr-2023 23:03:26.873 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2023 23:03:26.873 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.8]
+21-Apr-2023 23:03:26.887 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war]
+21-Apr-2023 23:03:27.115 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war] has finished in [228] ms
+21-Apr-2023 23:03:27.116 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs]
+21-Apr-2023 23:03:27.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs] has finished in [28] ms
+21-Apr-2023 23:03:27.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples]
+21-Apr-2023 23:03:27.322 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples] has finished in [176] ms
+21-Apr-2023 23:03:27.322 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager]
+21-Apr-2023 23:03:27.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager] has finished in [22] ms
+21-Apr-2023 23:03:27.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager]
+21-Apr-2023 23:03:27.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager] has finished in [16] ms
+21-Apr-2023 23:03:27.363 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 23:03:27.372 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [539] milliseconds
+21-Apr-2023 23:14:16.126 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Apr-2023 23:14:16.127 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 23:14:16.129 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 23:14:16.129 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Apr-2023 23:14:16.146 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 23:14:16.151 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 23:14:16.152 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 23:14:16.152 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 23:14:19.185 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [clientAuth] to [false]
+21-Apr-2023 23:14:19.190 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystoreFile] to [certs/mainul35.dev.jks]
+21-Apr-2023 23:14:19.190 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [keystorePass] to [password123]
+21-Apr-2023 23:14:19.191 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [sslProtocol] to [TLS]
+21-Apr-2023 23:14:19.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.8
+21-Apr-2023 23:14:19.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 14 2023 19:40:29 UTC
+21-Apr-2023 23:14:19.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.8.0
+21-Apr-2023 23:14:19.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Apr-2023 23:14:19.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.19.0-32-generic
+21-Apr-2023 23:14:19.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Apr-2023 23:14:19.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto
+21-Apr-2023 23:14:19.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+7-LTS
+21-Apr-2023 23:14:19.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+21-Apr-2023 23:14:19.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 23:14:19.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 23:14:19.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/conf/logging.properties
+21-Apr-2023 23:14:19.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2023 23:14:19.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2023 23:14:19.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2023 23:14:19.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2023 23:14:19.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2023 23:14:19.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2023 23:14:19.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2023 23:14:19.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2023 23:14:19.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2023 23:14:19.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 23:14:19.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10
+21-Apr-2023 23:14:19.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/temp
+21-Apr-2023 23:14:19.234 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Apr-2023 23:14:19.513 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 23:14:19.532 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+21-Apr-2023 23:14:19.541 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8443]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1018)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1003)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.lang.IllegalArgumentException: No SSLHostConfig element was found with the hostName [_default_] to match the defaultSSLHostConfigName for the connector [https-jsse-nio-8443]
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:75)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:207)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1256)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1269)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:622)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1016)
+		... 13 more
+21-Apr-2023 23:14:19.542 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [472] milliseconds
+21-Apr-2023 23:14:19.571 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2023 23:14:19.571 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.8]
+21-Apr-2023 23:14:19.586 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war]
+21-Apr-2023 23:14:19.813 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/ROOT.war] has finished in [227] ms
+21-Apr-2023 23:14:19.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs]
+21-Apr-2023 23:14:19.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/docs] has finished in [26] ms
+21-Apr-2023 23:14:19.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples]
+21-Apr-2023 23:14:20.059 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/examples] has finished in [218] ms
+21-Apr-2023 23:14:20.059 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager]
+21-Apr-2023 23:14:20.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/manager] has finished in [30] ms
+21-Apr-2023 23:14:20.090 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager]
+21-Apr-2023 23:14:20.110 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mainul35/Documents/codes/Spring-Spring-Boot-Tutorial-Projects/tomcat10/webapps/host-manager] has finished in [20] ms
+21-Apr-2023 23:14:20.114 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Apr-2023 23:14:20.124 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [581] milliseconds
